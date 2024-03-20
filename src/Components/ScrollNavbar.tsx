@@ -5,7 +5,7 @@ const ScrollNavbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 200) { // Aici se schimba 200 cu valoarea dorită
+      if (window.scrollY > 150) { 
         setIsVisible(true);
       } else {
         setIsVisible(false);
@@ -14,7 +14,6 @@ const ScrollNavbar = () => {
 
     window.addEventListener('scroll', handleScroll);
     
-    // Cleanup
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -23,7 +22,7 @@ const ScrollNavbar = () => {
   return (
     <div>
       {isVisible && (
-        <div className='w-full bg-[#97e7f5] fixed mx-auto p-4 hidden lg:block '>
+        <div className="w-full bg-[url('/public/assets/backgroud.jpg')] bg-cover fixed top-0 mx-auto p-2 pb-6 hidden lg:block ">
             <Links/> 
         </div>
       )}
