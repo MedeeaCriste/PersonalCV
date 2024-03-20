@@ -10,6 +10,7 @@ import Projects from './Components/Projects.tsx';
 import Volunteering from './Components/Volunteering.tsx';
 import Hobbies from './Components/Hobbies.tsx';
 import Languiges from './Components/Languiges.tsx';
+import Footer from './Components/Footer.tsx';
 function App() {
   return (
     <div className="App">
@@ -27,7 +28,7 @@ function App() {
       <Hobbies/>
       <Languiges/>
       </div>
-
+      <Footer/>
     </div>
   );
 }
