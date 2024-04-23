@@ -18,6 +18,7 @@ export default function Projects() {
             <a className='text-[#009dd1]' href="https://github.com/MedeeaCriste?tab=repositories">Github</a>
          </div>
          <div className='flex gap-2 mt-2'>
+         <a className='bg-[#01377d] text-white p-2 rounded-sm w-fit' href="https://top-profi.eu">ARDT Oradea</a>
          <a className='bg-[#01377d] text-white p-2 rounded-sm w-fit' href="https://top-profi.eu">Top Profi</a>
          <a className='bg-[#01377d] text-white p-2 rounded-sm w-fit' href="https://bddlogspeed.ro">BDL Logspeed</a>
          <a className='bg-[#01377d] text-white p-2 rounded-sm w-fit' href="https://afromed-ronicicul.web.app">That Ronicic</a>
