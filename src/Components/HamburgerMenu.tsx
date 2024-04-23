@@ -21,15 +21,15 @@ export default function HamburgerMenu() {
             {isOpen && (
                 <div className="">
                         <ul className="flex flex-col justify-start bg-white w-[40%] p-2 border-[2px] shadow-sm rounded-md text-sm gap-3 font-semibold fixed text-[#01377d] items-start w-fullS">
-                            <a  href="">Profile Info</a>
-                            <a  href="">WORK EXPERIENCE</a>
-                            <a  href="">MY SKILLS</a>
-                            <a  href="">EDUCATION</a>
-                            <a  href="">PROJECTS</a>
-                            <a  href="">VOLUNTEERING</a>
-                            <a  href="">LANGUAGE</a>
-                            <a  href="">HOBBIES</a>
-                            <a  href="">CONTACT</a>
+                            <a  href="#pinfo">Profile Info</a>
+                            <a  href="#experiences">WORK EXPERIENCE</a>
+                            <a  href="#shills">MY SKILLS</a>
+                            <a  href="#education">EDUCATION</a>
+                            <a  href="#projects">PROJECTS</a>
+                            <a  href="#volunteering">VOLUNTEERING</a>
+                            <a  href="#language">LANGUAGE</a>
+                            <a  href="#hobbies">HOBBIES</a>
+                            <a  href="#contact">CONTACT</a>
                         </ul>
                 </div>
             )}

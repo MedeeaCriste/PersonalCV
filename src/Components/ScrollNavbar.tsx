@@ -22,7 +22,7 @@ const ScrollNavbar = () => {
   return (
     <div>
       {isVisible && (
-        <div className="w-full bg-[url('/public/assets/backgroud.jpg')] bg-cover fixed top-0 mx-auto p-2 pb-6 hidden lg:block ">
+        <div className="w-full bg-[url('/public/assets/backgroud.jpg')] bg-cover z-50 fixed top-0 mx-auto p-2 pb-6 hidden lg:block ">
             <Links/> 
         </div>
       )}
