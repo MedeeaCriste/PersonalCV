@@ -20,6 +20,7 @@ export default function Projects() {
          <div className='flex gap-2 mt-2'>
          <a className='bg-[#01377d] text-white p-2 rounded-sm w-fit' href="https://ardtoradea.ro">ARDT Oradea</a>
          <a className='bg-[#01377d] text-white p-2 rounded-sm w-fit' href="https://top-profi.eu">Top Profi</a>
+         <a className='bg-[#01377d] text-white p-2 rounded-sm w-fit' href="https://guid-travel-app.vercel.app">Guid Travel</a>
          <a className='bg-[#01377d] text-white p-2 rounded-sm w-fit' href="https://bddlogspeed.ro">BDL Logspeed</a>
          <a className='bg-[#01377d] text-white p-2 rounded-sm w-fit' href="https://afromed-ronicicul.web.app">That Ronicic</a>
          </div>
